@@ -1,0 +1,21 @@
+//Instalas el package.JSON
+npm i -y  
+
+//Instalas Apollo(Es como el express de GraphQL)
+npm install apollo-server graphql
+
+//Intalas Nodemon
+npm i --save-dev nodemon
+
+//Agrega eso en el package.JSON 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "dev":"nodemon ."
+  },
+
+  //Instalas mongoose
+  npm i mongoose
+
+  //Instalas para las variables de entorno
+   npm i dotenv
