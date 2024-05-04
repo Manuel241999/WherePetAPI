@@ -19,3 +19,14 @@ npm i --save-dev nodemon
 
   //Instalas para las variables de entorno
    npm i dotenv
+
+
+
+   //DEPLOYMENT DE Heroku:
+   Primero instalate el Heroku CLI, esa onda es necesaria y inicias sesion con el Heroku login
+
+   Luego subi el proyecto a un repositorio git
+
+   luego necesitas hacer estos comandos para subirlo a tu cuenta de heroku:
+   heroku create --remote production
+   git push production master
